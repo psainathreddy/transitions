@@ -1,0 +1,168 @@
+/*button {
+    background-color: aqua;
+    font-size: 18px;
+    color: black outline: 1px solid;
+    border: none;
+}
+
+button:hover {
+    transition-duration: 1s;
+    background-color: grey;
+}*/
+* {
+    margin: 0px;
+}
+
+.maincontainer {
+    /*   border: 2px solid black;*/
+    width: 1300px;
+    height: 400px;
+    margin: 0px;
+}
+
+.subcontainer {
+    border: 1px solid whitesmoke;
+    background-color: lightgrey;
+    width: 1250px;
+    height: 380px;
+    margin: 5px;
+    padding-left: 40px;
+
+}
+
+.subcontainer-1 {
+    width: 390px;
+    height: 360px;
+    padding: 7px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    text-align: justify;
+}
+
+a {
+    border-radius: 10px;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 80px;
+    right: 180px;
+    padding: 10px;
+    color: white;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: red;
+}
+
+.subcontainer-2,
+.subcontainer-3,
+.subcontainer-4 {
+    background-color: white;
+    width: 250px;
+    border: solid;
+    border-color: gainsboro;
+    display: inline-block;
+    height: 360px;
+    vertical-align: top;
+    padding: 5px;
+    position: relative;
+}
+
+i {
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    color: red;
+    /*  border: 2px solid lightgrey;*/
+    border-radius: 60px;
+    background-color: #f4eded;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.subcontainer-2:hover>i {
+    background-color: red;
+    color: white;
+}
+
+.a {
+    color: black;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.p2 {
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 5px;
+}
+
+.b {
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.c {
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 20px;
+}
+
+.subcontainer-3:hover>i {
+    color: white;
+    background-color: red;
+}
+
+.d {
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.e {
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 20px;
+}
+
+.subcontainer-4:hover>i {
+    color: white;
+    background-color: red;
+}
